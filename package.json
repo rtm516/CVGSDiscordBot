@@ -12,13 +12,13 @@
     "body-parser": "^1.18.3",
     "discord.js": "^11.4.2",
     "express": "^4.16.4",
-    "gamedig": "^1.0.46",
+    "gamedig": "^1.0.47",
     "modern-rcon": "^1.0.3",
     "moment": "^2.22.2",
     "override-console-log": "^1.1.1",
     "public-google-calendar": "^0.2.0",
     "request": "^2.88.0",
-    "sqlite3": "^4.0.3",
+    "sqlite3": "^4.0.4",
     "uri-js": "^4.2.2"
   },
   "nodemonConfig": {
