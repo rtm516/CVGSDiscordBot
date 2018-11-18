@@ -19,7 +19,7 @@ const config_keys = require("./config-keys.js");
 
 const config = {
 	plugins: {},
-	port: 8080,
+	port: 5542,
 	calendarID: "ouau6kktqmol6ian5pdhjusmig@group.calendar.google.com",
 	calUpdateFreq: 1000 * 60 * 5,
 	pluginsFolder: "./plugins/"
