@@ -35,7 +35,7 @@ module.exports = {
                 embed.setColor(0xFF4500);
                 embed.setThumbnail(bodyJSON.image);
                 embed.setTitle(bodyJSON.title);
-                embed.setAuthor(bodyJSON.author + " via r/" + bodyJSON.subreddit, authorImage, "https://www.reddit.com/user/" + bodyJSON.author);
+                embed.setAuthor(bodyJSON.author + " via r/" + bodyJSON.subreddit.trim(), authorImage, "https://www.reddit.com/user/" + bodyJSON.author);
                 embed.setDescription(bodyJSON.post);
                 embed.setURL(bodyJSON.content);
 
