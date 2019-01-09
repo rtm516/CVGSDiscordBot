@@ -1,11 +1,11 @@
 const Discord = require("discord.js");
 const Gamedig = require("gamedig");
 const modern_rcon = require("modern-rcon");
-const rcon = new modern_rcon("192.168.1.202", "CVGSRocks@2018");
+const rcon = new modern_rcon("192.168.1.202", "*REMOVED*");
 const { exec } = require('child_process');
 
 module.exports = {
-    enabled: true,
+    enabled: false,
     run: function(config, client, db) {
         client.on('message', msg => {
             if (msg.content.startsWith("!whitelist ")) {
